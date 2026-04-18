@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Office by TechSavvy | Practical AI for Small Business Teams</title>
+  <meta name="description" content="Practical AI training, request support, and repeatable workflows for small business teams." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              navy: '#08162f',
+              navy2: '#0b2346',
+              blue: '#1ba7e6',
+              cyan: '#7de4ff',
+              slate: '#0f172a'
+            }
+          },
+          boxShadow: {
+            glow: '0 0 0 1px rgba(125,228,255,.12), 0 24px 60px rgba(8,22,47,.35)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #071223 0%, #0c2141 18%, #0b2448 40%, #0d2851 62%, #12315b 78%, #173b67 100%);
+    }
+    .section-card {
+      background: rgba(9, 18, 35, 0.62);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(125, 228, 255, 0.10);
+    }
+    .grid-glow {
+      background-image:
+        radial-gradient(circle at 20% 20%, rgba(125,228,255,.12), transparent 26%),
+        radial-gradient(circle at 80% 0%, rgba(27,167,230,.18), transparent 24%),
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+      background-size: auto, auto, 32px 32px, 32px 32px;
+    }
+    .gradient-text {
+      background: linear-gradient(135deg, #ffffff 0%, #bfeeff 42%, #7de4ff 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+  </style>
+</head>
+<body class="text-white antialiased">
+  <a href="#workshop" class="fixed bottom-5 right-5 z-50 hidden sm:inline-flex items-center gap-2 rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-2xl transition hover:bg-sky-300">Book Free Workshop</a>
+
+  <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/70 backdrop-blur-xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="#top" class="flex items-center gap-3">
+        <svg width="52" height="52" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="shrink-0">
+          <rect x="56" y="56" width="400" height="400" rx="92" fill="#0A1E3F"/>
+          <rect x="56" y="56" width="400" height="400" rx="92" stroke="#7DE4FF" stroke-width="5" stroke-opacity="0.18"/>
+          <path d="M138 366L248 153L358 366" stroke="#51C8FF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M176 288H317" stroke="#51C8FF" stroke-width="30" stroke-linecap="round"/>
+          <path d="M326 153V366" stroke="#51C8FF" stroke-width="34" stroke-linecap="round"/>
+          <circle cx="326" cy="109" r="24" fill="#B9F3FF"/>
+        </svg>
+        <div>
+          <div class="text-2xl font-bold tracking-tight">AI Office</div>
+          <div class="text-[11px] font-semibold uppercase tracking-[0.22em] text-sky-300">By TechSavvy</div>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-8 text-sm font-medium text-slate-200 md:flex">
+        <a href="#services" class="transition hover:text-sky-300">Services</a>
+        <a href="#process" class="transition hover:text-sky-300">Process</a>
+        <a href="#pricing" class="transition hover:text-sky-300">Pricing</a>
+        <a href="#deliverables" class="transition hover:text-sky-300">Deliverables</a>
+        <a href="#faq" class="transition hover:text-sky-300">FAQ</a>
+      </nav>
+
+      <a href="#workshop" class="hidden rounded-full bg-sky-400 px-5 py-2.5 text-sm font-semibold text-slate-950 transition hover:bg-sky-300 md:inline-block">Book Workshop</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="grid-glow relative overflow-hidden border-b border-white/10">
+      <div class="mx-auto max-w-7xl px-4 py-20 sm:px-6 md:py-28 lg:px-8 lg:py-32">
+        <div class="mx-auto max-w-4xl text-center">
+          <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-300/20 bg-white/5 px-4 py-2 text-sm text-sky-100">
+            Practical AI membership for small business teams
+          </div>
+          <h1 class="text-4xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
+            Turn AI into your <span class="gradient-text">daily office advantage</span>
+          </h1>
+          <p class="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
+            Training, reviewed request support, and reusable workflows built for owners, office managers, and teams that need visible wins instead of hype.
+          </p>
+          <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+            <a href="#workshop" class="rounded-full bg-white px-7 py-4 text-base font-semibold text-slate-950 transition hover:bg-sky-100">Book Free 30-Minute Workshop</a>
+            <a href="#pricing" class="rounded-full border border-white/20 bg-white/5 px-7 py-4 text-base font-semibold text-white transition hover:bg-white/10">See Membership Plans</a>
+          </div>
+          <p class="mt-5 text-sm text-sky-100/80">Membership starts before kickoff work. Cancel anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="grid gap-6 md:grid-cols-3">
+        <div class="section-card rounded-3xl p-7 shadow-glow">
+          <div class="mb-4 text-4xl">🎓</div>
+          <h2 class="text-2xl font-semibold">Live team training</h2>
+          <p class="mt-3 text-slate-300">Plain-English workshops tied to your actual office work, tools, and bottlenecks.</p>
+        </div>
+        <div class="section-card rounded-3xl p-7 shadow-glow">
+          <div class="mb-4 text-4xl">📨</div>
+          <h2 class="text-2xl font-semibold">Request support</h2>
+          <p class="mt-3 text-slate-300">Send one task, question, or use case. Get a reviewed answer, prompt, checklist, or draft you can use immediately.</p>
+        </div>
+        <div class="section-card rounded-3xl p-7 shadow-glow">
+          <div class="mb-4 text-4xl">🧩</div>
+          <h2 class="text-2xl font-semibold">Reusable workflows</h2>
+          <p class="mt-3 text-slate-300">SOPs, prompt packs, and standard operating patterns your team can keep using month after month.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+      <div class="grid gap-8 lg:grid-cols-2">
+        <div class="section-card rounded-3xl p-8 shadow-glow">
+          <h2 class="text-3xl font-bold">Common wins</h2>
+          <p class="mt-3 text-slate-300">Built for daily office tasks that waste time or create inconsistency.</p>
+          <ul class="mt-8 space-y-4 text-slate-200">
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>Email and message drafting</span></li>
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>SOPs and checklists from rough notes</span></li>
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>Meeting summaries and action items</span></li>
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>Research and vendor comparisons</span></li>
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>Sales proposals and client materials</span></li>
+            <li class="flex gap-3"><span class="text-sky-300">✓</span><span>Internal process standardization</span></li>
+          </ul>
+        </div>
+
+        <div id="process" class="section-card rounded-3xl p-8 shadow-glow">
+          <h2 class="text-3xl font-bold">How the service works</h2>
+          <p class="mt-3 text-slate-300">Simple, fast, and built around a ChatGPT-first plus human-review workflow.</p>
+          <div class="mt-8 space-y-6">
+            <div class="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-sky-400 font-bold text-slate-950">1</div>
+              <div>
+                <h3 class="text-xl font-semibold">Free workshop</h3>
+                <p class="mt-2 text-slate-300">A short in-person or streaming session shows what AI can do for the business and where the membership fits.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-sky-400 font-bold text-slate-950">2</div>
+              <div>
+                <h3 class="text-xl font-semibold">Membership starts</h3>
+                <p class="mt-2 text-slate-300">The client joins before the kickoff questionnaire, deliverables, or deep work begin.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-sky-400 font-bold text-slate-950">3</div>
+              <div>
+                <h3 class="text-xl font-semibold">ChatGPT-first + TechSavvy review</h3>
+                <p class="mt-2 text-slate-300">Each request is shaped, checked, and refined so the final output is usable, business-safe, and clear.</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-4 rounded-2xl border border-white/10 bg-white/5 p-5">
+              <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-sky-400 font-bold text-slate-950">4</div>
+              <div>
+                <h3 class="text-xl font-semibold">Delivery and reuse</h3>
+                <p class="mt-2 text-slate-300">Deliverables come back as drafts, prompts, checklists, SOPs, and answers the team can reuse later.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <h2 class="text-4xl font-black">Simple monthly memberships</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-slate-300">Choose the plan that fits your team size and support volume.</p>
+      </div>
+      <div class="mt-12 grid gap-8 lg:grid-cols-2">
+        <article class="section-card rounded-3xl p-8 shadow-glow">
+          <h3 class="text-3xl font-bold">Standard</h3>
+          <p class="mt-4 text-5xl font-black">$399<span class="text-lg font-medium text-slate-300"> / month</span></p>
+          <ul class="mt-8 space-y-4 text-slate-200">
+            <li>• 5 requests per month</li>
+            <li>• Written answers, prompts, templates, and checklists</li>
+            <li>• Extra 15-minute calls at $49 each</li>
+            <li>• Add 5 users: +$99/month and +2 requests</li>
+          </ul>
+          <a href="#workshop" class="mt-8 inline-block rounded-full bg-white/10 px-6 py-3 font-semibold text-white transition hover:bg-white/15">Get started</a>
+        </article>
+
+        <article class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-sky-400 to-blue-600 p-[1px] shadow-glow">
+          <div class="absolute right-6 top-5 rounded-full bg-amber-300 px-4 py-1 text-xs font-bold uppercase tracking-wide text-slate-950">Recommended</div>
+          <div class="h-full rounded-3xl bg-slate-950/85 p-8">
+            <h3 class="text-3xl font-bold">Premium</h3>
+            <p class="mt-4 text-5xl font-black">$799<span class="text-lg font-medium text-slate-300"> / month</span></p>
+            <ul class="mt-8 space-y-4 text-slate-100">
+              <li>• 15 requests per month</li>
+              <li>• 5 included 15-minute review calls</li>
+              <li>• Priority handling and deeper workflows</li>
+              <li>• Extra calls at $49 each</li>
+              <li>• Add 5 users: +$149/month, +5 requests, +1 call</li>
+            </ul>
+            <a href="#workshop" class="mt-8 inline-block rounded-full bg-sky-300 px-6 py-3 font-semibold text-slate-950 transition hover:bg-sky-200">Get started</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="deliverables" class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+      <div class="text-center">
+        <h2 class="text-4xl font-black">Sample deliverables</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-slate-300">These are the kinds of usable files your team receives and reuses.</p>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <a class="section-card block rounded-3xl p-6 shadow-glow transition hover:-translate-y-1 hover:border-sky-200/25" href="assets/sops/ai-office-sop-01-client-acquisition-and-workshop.pdf" target="_blank" rel="noopener noreferrer">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-2xl">📄</div>
+          <h3 class="mt-5 text-lg font-semibold">Client acquisition & workshop SOP</h3>
+          <p class="mt-3 text-sm text-slate-300">Free workshop flow, qualification, and first conversation structure.</p>
+          <div class="mt-4 text-sm font-semibold text-sky-300">Open PDF →</div>
+        </a>
+        <a class="section-card block rounded-3xl p-6 shadow-glow transition hover:-translate-y-1 hover:border-sky-200/25" href="assets/sops/ai-office-sop-02-client-onboarding.pdf" target="_blank" rel="noopener noreferrer">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-2xl">📄</div>
+          <h3 class="mt-5 text-lg font-semibold">Client onboarding SOP</h3>
+          <p class="mt-3 text-sm text-slate-300">Membership start, kickoff sequence, intake, and setup steps.</p>
+          <div class="mt-4 text-sm font-semibold text-sky-300">Open PDF →</div>
+        </a>
+        <a class="section-card block rounded-3xl p-6 shadow-glow transition hover:-translate-y-1 hover:border-sky-200/25" href="assets/sops/ai-office-sop-03-ai-request-handling.pdf" target="_blank" rel="noopener noreferrer">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-2xl">📄</div>
+          <h3 class="mt-5 text-lg font-semibold">AI request handling SOP</h3>
+          <p class="mt-3 text-sm text-slate-300">Request intake, review, escalation, delivery, and closure standards.</p>
+          <div class="mt-4 text-sm font-semibold text-sky-300">Open PDF →</div>
+        </a>
+        <a class="section-card block rounded-3xl p-6 shadow-glow transition hover:-translate-y-1 hover:border-sky-200/25" href="assets/sops/ai-office-sop-04-delivery-review-renewal.pdf" target="_blank" rel="noopener noreferrer">
+          <div class="flex h-14 w-14 items-center justify-center rounded-2xl bg-white/10 text-2xl">📄</div>
+          <h3 class="mt-5 text-lg font-semibold">Delivery, review & renewal SOP</h3>
+          <p class="mt-3 text-sm text-slate-300">Quality control, review calls, renewal prompts, and next-step planning.</p>
+          <div class="mt-4 text-sm font-semibold text-sky-300">Open PDF →</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="section-card rounded-[2rem] p-8 text-center shadow-glow sm:p-12">
+        <div class="mx-auto flex h-24 w-24 items-center justify-center rounded-[1.6rem] bg-gradient-to-br from-sky-300 to-sky-500 text-3xl font-black text-slate-950">KH</div>
+        <h2 class="mt-6 text-3xl font-black">About Kyle</h2>
+        <p class="mt-2 text-sm font-semibold uppercase tracking-[0.25em] text-sky-300">Founder of TechSavvy</p>
+        <p class="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-200">
+          AI Office is built to give small business teams practical AI help they can actually use. The goal is not to impress people with tech. The goal is to make daily work faster, clearer, and more consistent with human review when it matters.
+        </p>
+      </div>
+    </section>
+
+    <section id="faq" class="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8 lg:py-14">
+      <div class="text-center">
+        <h2 class="text-4xl font-black">Frequently asked questions</h2>
+      </div>
+      <div class="mt-10 space-y-4">
+        <details class="section-card rounded-2xl p-5 shadow-glow">
+          <summary class="cursor-pointer list-none text-lg font-semibold">Do you replace employee judgment?</summary>
+          <p class="mt-3 text-slate-300">No. AI speeds up work, improves consistency, and helps with first drafts. Staff still own final business decisions.</p>
+        </details>
+        <details class="section-card rounded-2xl p-5 shadow-glow">
+          <summary class="cursor-pointer list-none text-lg font-semibold">How are requests submitted?</summary>
+          <p class="mt-3 text-slate-300">Simple form, email, or shared portal. The intake process can be standardized for the client after onboarding.</p>
+        </details>
+        <details class="section-card rounded-2xl p-5 shadow-glow">
+          <summary class="cursor-pointer list-none text-lg font-semibold">What counts as one request?</summary>
+          <p class="mt-3 text-slate-300">One business question, task, or use case. Minor clarifications stay inside the original request.</p>
+        </details>
+        <details class="section-card rounded-2xl p-5 shadow-glow">
+          <summary class="cursor-pointer list-none text-lg font-semibold">What kind of businesses is this for?</summary>
+          <p class="mt-3 text-slate-300">Small businesses that want practical AI help without hiring an internal specialist or wasting time on generic training.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="workshop" class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+      <div class="overflow-hidden rounded-[2rem] bg-gradient-to-br from-sky-400 to-blue-600 p-[1px] shadow-glow">
+        <div class="rounded-[2rem] bg-slate-950/90 p-8 sm:p-10">
+          <div class="text-center">
+            <h2 class="text-4xl font-black">Book your free 30-minute workshop</h2>
+            <p class="mx-auto mt-4 max-w-2xl text-slate-200">Replace the form action with your Formspree endpoint and this will work on GitHub Pages with no server.</p>
+          </div>
+          <form action="https://formspree.io/f/meevkjab" method="POST" class="mt-8 grid gap-4">
+            <input type="text" name="name" placeholder="Your name" required class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 text-white outline-none placeholder:text-slate-400 focus:border-sky-300" />
+            <input type="email" name="email" placeholder="Business email" required class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 text-white outline-none placeholder:text-slate-400 focus:border-sky-300" />
+            <input type="text" name="company" placeholder="Company name" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 text-white outline-none placeholder:text-slate-400 focus:border-sky-300" />
+            <textarea name="message" rows="5" placeholder="What would you like to improve with AI?" class="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 text-white outline-none placeholder:text-slate-400 focus:border-sky-300"></textarea>
+            <input type="hidden" name="_subject" value="New AI Office workshop request" />
+            <button type="submit" class="rounded-full bg-white px-6 py-4 text-base font-semibold text-slate-950 transition hover:bg-sky-100">Reserve my spot</button>
+            <p class="text-center text-sm text-sky-100/75">No build step required. Works as static HTML on GitHub Pages once Formspree is connected.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950/60">
+    <div class="mx-auto max-w-7xl px-4 py-10 text-center text-sm text-slate-300 sm:px-6 lg:px-8">
+      <p>© 2026 AI Office by TechSavvy</p>
+      <p class="mt-2">Practical AI training and workflow enablement for small business teams</p>
+      <div class="mt-4 flex items-center justify-center gap-6">
+        <a href="#services" class="transition hover:text-sky-300">Services</a>
+        <a href="#pricing" class="transition hover:text-sky-300">Pricing</a>
+        <a href="#workshop" class="transition hover:text-sky-300">Workshop</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
