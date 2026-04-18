@@ -1,28 +1,27 @@
-[README.txt](https://github.com/user-attachments/files/26855364/README.txt)
 AI Office website bundle
 
-Files included:
+Included:
 - index.html
 - favicon.png
 - assets/logo/*
-- assets/sops/*
-
-GitHub Pages setup:
-1. Create or open your GitHub repo.
-2. Upload index.html, favicon.png, and the entire assets folder to the repo root.
-3. Delete README.md if GitHub is showing that instead of the site.
-4. In GitHub: Settings > Pages.
-5. Set Source to "Deploy from a branch".
-6. Set Branch to "main" and Folder to "/ (root)".
-7. Save. GitHub will publish the site and show the live URL on the Pages screen.
-
-Formspree setup:
-1. Create a Formspree account and create a new form.
-2. Copy the endpoint shown in Formspree. It looks like: https://formspree.io/f/xxxxxxx
-3. Open index.html and replace https://formspree.io/f/REPLACE_ME with your real endpoint.
-4. Commit the updated index.html to GitHub.
-5. Submit a test form from the live site and confirm the submission arrives in Formspree.
+- assets/images/founder-headshot.jpg
 
 Notes:
-- The logo shown in the website is inline SVG, so the site does not depend on an external logo path for the header.
-- SOP download links point to assets/sops/*.pdf, so keep that folder structure when uploading.
+- The website content has been fully updated while preserving the same overall look and feel.
+- The founder section is wired to assets/images/founder-headshot.jpg.
+- In this generated bundle, that file is a placeholder because the portrait image shown in chat was not exposed as a downloadable file in the workspace.
+- Replace assets/images/founder-headshot.jpg with your actual headshot using the same filename and the founder section will update automatically.
+- The header logo is inline SVG, so it does not depend on an external image path.
+
+GitHub Pages quick setup:
+1. Upload index.html, favicon.png, and the full assets folder to the repo root.
+2. In GitHub: Settings > Pages.
+3. Set Source to Deploy from a branch.
+4. Set Branch to main and Folder to /(root).
+5. Save.
+
+Formspree quick setup:
+1. Create a form in Formspree.
+2. Copy the endpoint.
+3. Replace https://formspree.io/f/REPLACE_ME inside index.html.
+4. Commit the updated file.
